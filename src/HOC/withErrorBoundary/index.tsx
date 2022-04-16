@@ -16,6 +16,10 @@ const withErrorBoundary = <T extends Record<string, never>>(WrappedComponent: Co
       return { hasError: true }
     }
 
+    componentDidCatch(error: Error, errorInfo: unknown) {
+      console.error(error, errorInfo)
+    }
+
     render() {
       if (this.state.hasError) return <p>Something went wrong</p>
       return <WrappedComponent {...this.props} />
