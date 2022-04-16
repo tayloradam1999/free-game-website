@@ -4,8 +4,8 @@ A ```React-Typescript``` application that allows users to filter through a list 
 
 I made this application as a side-project to help solidify my knowledge of ```React``` and ```Typescript```, as I know I will be using them both in conjunction with one-another for many years to come *post graduation*.
 
-## Visit the deployed website
-<a href="https://tayloradam1999.github.io/free-game-website/">Link to Deployed Site</a>
+## Visit the Deployed Website
+<a href="https://tayloradam1999.github.io/free-game-website/">Link to Website</a>
 
 ## Development & Features
 **Project Setup**
