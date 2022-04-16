@@ -28,7 +28,7 @@ export const breakpoints = {
 }
 ```
   
-- Utilized ```axios``` to fetch data from the [freetogame.com/api-doc](https://freetogame.com/api-doc) API and put all functionality into a single ```hook``` called ```useFetch```
+- Utilized ```axios``` to create my ```useFetch``` hook to pull data from the [freetogame.com/api-doc](https://freetogame.com/api-doc) API.
   
 - **Filters:**
   - Platform
