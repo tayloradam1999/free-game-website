@@ -5,7 +5,7 @@ A ```React-Typescript``` application that allows users to filter through a list 
 I made this application as a side-project to help solidify my knowledge of ```React``` and ```Typescript```, as I know I will be using them both in conjunction with one-another for many years to come *post graduation*.
 
 ## Visit the deployed website
-<a href="">
+<a href="https://tayloradam1999.github.io/free-game-website/">Link to Deployed Site</a>
 
 ## Development & Features
 **Project Setup**
@@ -87,6 +87,7 @@ export const breakpoints = {
 [eslint](https://www.npmjs.com/package/eslint) |
 [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) |
 [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) |
+[gh-pages](https://www.npmjs.com/package/gh-pages) |
 [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
 [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin) |
 [prettier](https://www.npmjs.com/package/prettier) |
