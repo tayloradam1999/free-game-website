@@ -28,7 +28,7 @@ export const breakpoints = {
 }
 ```
   
-- Utilized ```axios``` to create my ```useFetch``` hook to pull data from the [freetogame.com/api-doc](https://freetogame.com/api-doc) API.
+- Utilized ```axios``` to create my ```useFetch``` hook to pull data from the [freetogame](https://freetogame.com/api-doc) API.
   
 - **Filters:**
   - Platform
@@ -50,7 +50,7 @@ export const breakpoints = {
     - *Popularity*
     - *Release Date*
     - *Alphabetical*
-
+  
 - Utilized ```Styled-Components``` to style the application.
   
 - Implemented ```HOC``` to handle ```getDerivedStateFromError``` and ```componentDidCatch``` for error handling.
@@ -69,6 +69,7 @@ export const breakpoints = {
 [@babel/polyfill](https://www.npmjs.com/package/@babel/polyfill) |
   
 **Dev Dependencies**
+  
 [@babel/core](https://www.npmjs.com/package/@babel/core) |
 [@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env) |
 [@babel/preset-react](https://www.npmjs.com/package/@babel/preset-react) |
