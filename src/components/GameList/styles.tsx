@@ -57,11 +57,10 @@ export const Error = styled.div`
 `
 
 export const ErrorButton = styled.button`
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: 1em 1em;
+  padding: 0.5em 2em;
   border-radius: 4px;
-  background-color: #87ADED;
-  color: white;
-  width: 150px;
-  height: 28px;
+  background: transparent;
+  border: 2px solid palevioletred;
+  color: palevioletred;
 `
