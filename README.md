@@ -18,7 +18,9 @@ I made this application as a side-project to help solidify my knowledge of ```Re
   
 - Utilized ```yarn``` as my package manager instead of ```npm``` for my first time (*ps, i loved it!*)
   
-**Project Developement**
+**Project Development**
+
+- Utilized ```React``` to create the front-end of the application.
 
 - Implemented **Responsive Design** using ```styled-components``` at these custom breakpoints:
   
