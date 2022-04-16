@@ -16,8 +16,7 @@ I made this application as a side-project to help solidify my knowledge of ```Re
   
 - Utilized ```Webpack``` to bundle the code into a single file.
   
-- Utilized ```yarn``` as my package manager instead of ```npm``` for my first time :)
-*ps, i loved it!*
+- Utilized ```yarn``` as my package manager instead of ```npm``` for my first time (*ps, i loved it!*)
   
 **Project Developement**
 
