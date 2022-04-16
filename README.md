@@ -10,18 +10,18 @@ I made this application as a side-project to help solidify my knowledge of ```Re
 ## Development & Features
 **Project Setup**
   
-Utilized ```Babel``` and ```core-js``` to transpile the code to ECMAScript 6.
+- Utilized ```Babel``` and ```core-js``` to transpile the code to ECMAScript 6.
   
-Utilized ```ESLint``` and ```Prettier``` to enforce code quality.
+- Utilized ```ESLint``` and ```Prettier``` to enforce code quality.
   
-Utilized ```Webpack``` to bundle the code into a single file.
+- Utilized ```Webpack``` to bundle the code into a single file.
   
-Utilized ```yarn``` as my package manager instead of ```npm``` for my first time :)
+- Utilized ```yarn``` as my package manager instead of ```npm``` for my first time :)
 *ps, i loved it!*
   
 **Project Developement**
 
-Implemented **Responsive Design** using ```styled-components``` at these custom breakpoints:
+- Implemented **Responsive Design** using ```styled-components``` at these custom breakpoints:
 ```javascript
 export const breakpoints = {
   tablet: '720px',
@@ -29,7 +29,7 @@ export const breakpoints = {
 }
 ```
   
-Utilized ```axios``` to fetch data from the [freetogame.com/api-doc](https://freetogame.com/api-doc) API and put all functionality into a single ```hook``` called ```useFetch```
+- Utilized ```axios``` to fetch data from the [freetogame.com/api-doc](https://freetogame.com/api-doc) API and put all functionality into a single ```hook``` called ```useFetch```
   
 - **Filters:**
   - Platform
@@ -52,11 +52,11 @@ Utilized ```axios``` to fetch data from the [freetogame.com/api-doc](https://fre
     - *Release Date*
     - *Alphabetical*
 
-Utilized ```Styled-Components``` to style the application.
+- Utilized ```Styled-Components``` to style the application.
   
-Implemented ```HOC``` to handle ```getDerivedStateFromError``` and ```componentDidCatch``` for error handling.
+- Implemented ```HOC``` to handle ```getDerivedStateFromError``` and ```componentDidCatch``` for error handling.
   
-Utilized ```React-Router``` to handle the routing of the application (even though this is a single page application).
+- Utilized ```React-Router``` to handle the routing of the application (even though this is a single page application).
   
 ## Packages Used
 **Dependencies**
