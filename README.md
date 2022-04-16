@@ -21,12 +21,13 @@ I made this application as a side-project to help solidify my knowledge of ```Re
 **Project Developement**
 
 - Implemented **Responsive Design** using ```styled-components``` at these custom breakpoints:
+  
 ```javascript
 export const breakpoints = {
   tablet: '720px',
   desktop: '1024px',
 }
-```
+```  
   
 - Utilized ```axios``` to create my ```useFetch``` hook to pull data from the [freetogame](https://freetogame.com/api-doc) API.
   
