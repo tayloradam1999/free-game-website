@@ -61,13 +61,13 @@ export const breakpoints = {
 ## Packages Used
 **Dependencies**
   
+[@babel/polyfill](https://www.npmjs.com/package/@babel/polyfill) |
 [axios](https://axios-http.com/docs/intro) |
 [core-js](https://www.npmjs.com/package/core-js) |
 [react](https://reactjs.org/docs/getting-started.html) |
 [react-dom](https://reactjs.org/docs/getting-started.html) |
 [react-router-dom](https://reacttraining.com/react-router/web/api/BrowserRouter) |
 [styled-components](https://www.npmjs.com/package/styled-components) |
-[@babel/polyfill](https://www.npmjs.com/package/@babel/polyfill) |
   
 **Dev Dependencies**
   
