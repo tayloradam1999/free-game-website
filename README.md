@@ -2,6 +2,8 @@
 
 A ```React-Typescript``` application that allows users to filter through a list of PC/Web Browser based games provided by [freetogame.com/api-doc](https://freetogame.com/api-doc).
 
+## Reason for creation
+
 I made this application as a side-project to help solidify my knowledge of ```React``` and ```Typescript```, as I know I will be using them both in conjunction with one-another for many years to come *post graduation*.
 
 ## Visit the Deployed Website
@@ -60,40 +62,42 @@ export const breakpoints = {
   
 - Utilized ```React-Router``` to handle the routing of the application (even though this is a single page application).
   
-## Packages Used
-**Dependencies**
-  
-[@babel/polyfill](https://www.npmjs.com/package/@babel/polyfill) |
-[axios](https://axios-http.com/docs/intro) |
-[core-js](https://www.npmjs.com/package/core-js) |
-[react](https://reactjs.org/docs/getting-started.html) |
-[react-dom](https://reactjs.org/docs/getting-started.html) |
-[react-router-dom](https://reacttraining.com/react-router/web/api/BrowserRouter) |
-[styled-components](https://www.npmjs.com/package/styled-components) |
-  
-**Dev Dependencies**
-  
-[@babel/core](https://www.npmjs.com/package/@babel/core) |
-[@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env) |
-[@babel/preset-react](https://www.npmjs.com/package/@babel/preset-react) |
-[@babel/preset-typescript](https://www.npmjs.com/package/@babel/preset-typescript) |
-[@types/axios](https://www.npmjs.com/package/@types/axios) |
-[@types/react](https://www.npmjs.com/package/@types/react) |
-[@types/react-dom](https://www.npmjs.com/package/@types/react-dom) |
-[@types/react-router-dom](https://www.npmjs.com/package/@types/react-router-dom) |
-[@types/styled-components](https://www.npmjs.com/package/@types/styled-components) |
-[@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) |
-[@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser) |
-[babel-loader](https://www.npmjs.com/package/babel-loader) |
-[babel-plugin-styled-components](https://www.npmjs.com/package/babel-plugin-styled-components) |
-[eslint](https://www.npmjs.com/package/eslint) |
-[eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) |
-[eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) |
-[gh-pages](https://www.npmjs.com/package/gh-pages) |
-[eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
-[html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin) |
-[prettier](https://www.npmjs.com/package/prettier) |
-[typescript](https://www.npmjs.com/package/typescript) |
-[webpack](https://www.npmjs.com/package/webpack) |
-[webpack-cli](https://www.npmjs.com/package/webpack-cli) |
-[webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
+## Dependencies
+| Library/Framework             |  Version  |
+| ----------------------------- | --------- | 
+| @babel/polyfill               |  ^7.12.1  |
+| axios                         |  ^0.26.1  |
+| core-js                       |  ^3.21.1  |
+| react                         |  ^18.0.0  |
+| react-dom                     |  ^18.0.0  |
+| react-router-dom              |   5.2.0   |
+| styled-components             |  ^5.3.5   |
+
+
+## devDependencies
+| Library/Framework                   |     Version     |
+| ----------------------------------- | --------------- | 
+| @babel/core                         |     ^7.17.9     |
+| @babel/preset-env                   |     ^7.16.11    |
+| @babel/preset-react                 |     ^7.16.7     |
+| @babel/preset-typescript            |     ^7.16.7     |
+| @types/axios                        |     ^0.14.0     |
+| @types/react                        |     ^18.0.1     |
+| @types/react-dom                    |     ^18.0.0     |
+| @types/react-router-dom             |     ^5.3.3      |
+| @types/styled-components            |     ^5.1.25     |
+| @typescript-eslint/eslint-plugin    |     ^5.18.0     |
+| @typescript-eslint/parser           |     ^5.18.0     |
+| babel-loader                        |     ^8.2.4      |
+| babel-plugin-styled-components      |     ^2.0.7      |
+| eslint                              |     ^8.13.0     |
+| eslint-config-prettier              |     ^8.5.0      |
+| eslint-plugin-react                 |     ^7.29.4     |
+| eslint-plugin-react-hooks           |     ^4.4.0      |
+| gh-pages                            |     ^3.2.3      |
+| html-webpack-plugin                 |     ^5.5.0      |
+| prettier                            |     ^2.6.2      |
+| typescript                          |     ^4.6.3      |
+| webpack                             |     ^5.72.0     |
+| webpack-cli                         |     ^4.9.2      |
+| webpack-dev-server                  |     ^4.8.1      |
